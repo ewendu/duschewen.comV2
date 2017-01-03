@@ -20,7 +20,7 @@ class ContactController extends Controller
     
     public function mailTo(ContactRequest $request)
     {
-        Mail::to('ewendusch.contact@gmail.com')
+        Mail::to('duschewen.contact@gmail.com')
                                             
                                             ->send(new ContactMail(
                     $request->input('name'),
@@ -29,6 +29,9 @@ class ContactController extends Controller
                     $request->input('message')
             ));
             
+            
+        
+       
         
         return redirect('/')
                                 ->with('status', 'Your email was prefectly sent !')

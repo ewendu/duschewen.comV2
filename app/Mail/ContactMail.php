@@ -26,7 +26,7 @@ class ContactMail extends Mailable
         $this->name    = $name;
         $this->email   = $email;
         $this->need    = $need;
-        $this->text = $message;
+        $this->text    = $message;
         
     }
 

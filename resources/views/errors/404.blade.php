@@ -1,6 +1,12 @@
 @extends('template')
 
+@section('css')
+<link rel="stylesheet" href="../css/font-awesome.min.css">
+<link rel="stylesheet" href="../../css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/style.css" type="text/css" />
+<link rel="stylesheet" href="../../css/style.css" type="text/css" />
 
+@endsection
 
 @section('content')
 
